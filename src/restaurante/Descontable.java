@@ -1,5 +1,7 @@
 package restaurante;
 
-public class Descontable {
-    
+public interface Descontable {
+
+    double aplicarDescuento(double porcentaje);
+
 }

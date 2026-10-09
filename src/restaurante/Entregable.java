@@ -1,5 +1,7 @@
 package restaurante;
 
-public class Entregable {
-    
+public interface Entregable {
+
+    void entregar();
+
 }
